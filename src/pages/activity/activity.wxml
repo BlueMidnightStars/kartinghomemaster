@@ -1,0 +1,54 @@
+<view class="page-container">
+    <view class="activity-header__nav">
+        <view class="activity-header__link active">
+            全部
+        </view>
+        <view class="activity-header__link">
+            单人比赛
+        </view>
+        <view class="activity-header__link">
+            团队比赛
+        </view>
+        <view class="activity-header__link">
+            线下围观
+        </view>
+    </view>
+    <view class="activity-bd__list">
+        <view class="activity-bd__item">
+            <view class="item-issuer">发布人：卡丁车之家</view>
+            <image class="item-img" src="./../../assets/image/activity_1.png"></image>
+            <view class="item-title">2019.4.16 沙井极速赛车场100cc租场活动</view>
+            <view class="item-base">
+                <view class="item-base__tag">个人比赛</view>
+                <view class="item-base_price">¥1200</view>
+            </view>
+        </view>
+        <view class="activity-bd__item">
+            <view class="item-issuer">发布人：卡丁车之家</view>
+            <image class="item-img" src="./../../assets/image/activity_1.png"></image>
+            <view class="item-title">2019.4.16 沙井极速赛车场100cc租场活动</view>
+            <view class="item-base">
+                <view class="item-base__tag">个人比赛</view>
+                <view class="item-base_price">¥1200</view>
+            </view>
+        </view>
+        <view class="activity-bd__item">
+            <view class="item-issuer">发布人：卡丁车之家</view>
+            <image class="item-img" src="./../../assets/image/activity_1.png"></image>
+            <view class="item-title">2019.4.16 沙井极速赛车场100cc租场活动</view>
+            <view class="item-base">
+                <view class="item-base__tag">个人比赛</view>
+                <view class="item-base_price">¥1200</view>
+            </view>
+        </view>
+        <view class="activity-bd__item">
+            <view class="item-issuer">发布人：卡丁车之家</view>
+            <image class="item-img" src="./../../assets/image/activity_1.png"></image>
+            <view class="item-title">2019.4.16 沙井极速赛车场100cc租场活动</view>
+            <view class="item-base">
+                <view class="item-base__tag">个人比赛</view>
+                <view class="item-base_price">¥1200</view>
+            </view>
+        </view>
+    </view>
+</view>

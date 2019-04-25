@@ -1,0 +1,28 @@
+<view class="page">
+    <view class="article-title">
+        上海迎来F1第一千场大奖赛 V8引擎响彻新天地
+    </view>
+    <view class="article-desc-section">
+        <image class="article-logo" src='./../../assets/image/WechatIMG1833.png'></image>
+        <view class="article-desc-message">
+            <view class="article-author">卡丁车之家</view>
+            <view class="article-time">2019/02/14</view>
+        </view>
+        <view class="article-pageView">
+            阅读：37594
+        </view>
+    </view>
+    <view class="article-section">
+        <image class="article-section-img" src='./../../assets/image/Bitmap.png'></image>
+        <view class="article-section-text">
+                受瞩目的世界一级方程式锦标赛（F1）第一千站大奖赛在上汽国际赛车场轰鸣启动。今天（13日）中午，F1赛车亮相上海市中心，在新天地太平湖公园上演赛车街道表演。上海市市长应勇为纪念赛车上的上海城市推广标志“上海印章”揭幕，并与F1世界锦标赛集团执行总裁切斯·凯里一起为赛车加油。上海市副市长陈群、宗明出席。
+        </view>
+        <view class="article-section-text">
+                随着引擎声响起，F1赛车启动加速，飞驰而过，来自世界各地的F1车迷和上海市民一起，近距离感受了F1运动的速度与激情。上海本土车手周冠宇驾驶雷诺赛车驶上“街头赛道”，赢得现场观众阵阵欢呼。
+        </view>
+    </view>
+    <view class="article-share">
+        <image class="article-share-img" src="./../../assets/image/icon_share white.png"></image>
+        <text>分享</text>
+    </view>
+</view>
