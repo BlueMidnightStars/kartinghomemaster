@@ -1,0 +1,232 @@
+
+page{
+    background-color: #F4F5F6;
+    position: relative;
+    padding-bottom: 472rpx;
+}
+.page-container{
+    background-color: #F4F5F6;
+    font-size: 0;
+    .details-map{
+      width: 100%;
+      height: 375rpx;  
+    }
+    .details-title__section{
+        padding: 32rpx 30rpx;
+        background-color: #fff;
+        .details-title{
+            font-size: 34rpx;
+            color: #333;
+            line-height: 50rpx;
+        }
+        .details-describe__section{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15rpx;
+        }
+        .details-describe__price{
+            display: flex;
+            justify-content: space-between;
+            .price-title{
+                font-size: 26rpx;
+                color: #83817E;
+                margin-right:32rpx; 
+            }
+            .price-content{
+                font-size: 26rpx;
+                color: #333;
+            }
+        }
+        .details-describe__applicant{
+            font-size: 26rpx;
+            color: #333;
+        }
+    }
+    .details-desc__section{
+        background-color: #fff;
+        padding: 0 30rpx;
+        margin-top: 16rpx;
+        .desc__item{
+            border-bottom: 1px solid #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .item__title{
+                display: flex;
+                font-size: 28rpx;
+                color: #999;
+                width: 164rpx;
+                margin-right: 42rpx;
+                .item-logo{
+                  width: 36rpx;
+                  height: 36rpx;
+                  margin-right: 16rpx;
+                  border:1px dashed #f4f4f4;  
+                }
+            }
+            .item__content{
+                font-size: 28rpx;
+                color: #333;
+                line-height: 110rpx;
+                flex: 1;
+            }
+            .item__contacts{
+                display: flex;
+                align-self:flex-start;
+                position: relative;
+                right: -28rpx;
+                .contacts-img-item{
+                   width: 140rpx;
+                   height: 88rpx; 
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   border:1px dashed #f4f4f4; 
+                   .contacts-img{
+                       width: 141rpx;
+                       height: 88rpx;
+                   }
+                }
+            }
+        }
+    }
+    .details-apply{
+        margin-top: 16rpx;
+        padding: 0 30rpx;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .apply_title{
+           font-size: 28rpx;
+           color: #333;
+           line-height: 110rpx;
+        }
+        .apply_desc{
+            font-size: 28rpx;
+            color: #333;
+            display: flex;
+            align-items: center;
+            .apply_logo-item{
+                margin-left: 16rpx;
+                border:1px dashed #f4f4f4; 
+                .apply_logo{
+                   height: 40rpx;
+                    width: 40rpx; 
+                }
+            }
+        }
+    }
+    .details-participant{
+        margin-top: 16rpx;
+        padding: 0 30rpx;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .participant_title{
+            font-size: 28rpx;
+           color: #333;
+           line-height: 110rpx;
+        }
+        .participant_desc{
+            display: flex;
+            .participant_image-list{
+                display: flex;
+                .participant_image{
+                    width: 50rpx;
+                    height: 50rpx;
+                    border-radius: 50%;
+                    margin-right: 16rpx;
+                }
+            }
+            .participant_logo-item{
+                margin-left: 8rpx;
+                border:1px dashed #f4f4f4; 
+                .participant_logo{
+                   height: 40rpx;
+                    width: 40rpx; 
+                }
+            }
+        }
+    }
+    .details-explain{
+        margin-top: 16rpx;
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff;
+        .explain-item{
+            font-size: 28rpx;
+            color: #333;
+            line-height: 110rpx;
+            position: relative;
+        }
+        .active{
+            font-size: 700;
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 80rpx;
+                height: 12rpx;
+                border-radius: 10px;
+                background-color: #FF6F20;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+} 
+.details-apply_container{
+    width: 100%;
+    height: 98rpx;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    .apply-consult{
+        font-size: 20rpx;
+        color: #333;
+        text-align: center;
+        .consult_logo{
+            width: 45rpx;
+            height: 44rpx;
+            margin-bottom: 4px;
+            display: block;
+        } 
+    }
+    .apply-button_container{
+        display: flex;
+        .apply{
+            flex: 1;
+            width: 580rpx;
+            height: 82rpx;
+            background-color: #FF6F20;
+            font-size: 34rpx;
+            color: #fff;
+            line-height: 82rpx;
+        }
+        .check{
+            flex: 1;
+            width: 580rpx;
+            height: 82rpx;
+            background-color: #FF6F20;
+            font-size: 34rpx;
+            color: #fff;
+            line-height: 82rpx;
+        }
+        .finish{
+            flex: 1;
+            width: 580rpx;
+            height: 82rpx;
+            background-color: rgba(255, 97, 0, 0.3);
+            font-size: 34rpx;
+            color: #fff;
+            line-height: 82rpx;
+        }
+    }
+}

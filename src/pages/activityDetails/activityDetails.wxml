@@ -1,0 +1,91 @@
+<view class="page-container">
+    <image class="details-map" src="./../../assets/image/activity_1.png"></image>
+    <view class="details-title__section">
+        <view class="details-title">2019.4.16 沙井极速赛车场100cc租场活动</view>
+        <view class="details-describe__section">
+            <view class="details-describe__price">
+                <view class="price-title">费用最低</view>
+                <view class="price-content">￥380/人</view>
+            </view>
+            <view class="details-describe__applicant">32人已报名</view>
+        </view>
+    </view>
+    <view class="details-desc__section">
+        <view class="desc__item">
+            <view class="item__title">
+                <image src="./../../assets/image/icon_position.png" class="item-logo"></image>
+                活动场馆
+            </view>
+            <view class="item__content">
+                广东省深圳市 沙井极速赛车场
+            </view>
+        </view>
+        <view class="desc__item">
+            <view class="item__title">
+                <image src="./../../assets/image/icon_date.png" class="item-logo"></image>
+                活动日期
+            </view>
+            <view class="item__content">
+                19/05/06 14:00 ~ 19/05/15 18:00
+            </view>
+        </view>
+        <view class="desc__item">
+            <view class="item__title">
+                <image src="./../../assets/image/icon_contact.png" class="item-logo"></image>
+                联系人
+            </view>
+            <view class="item__content">
+                张先生
+            </view>
+            <view class="item__contacts">
+                <view class="contacts-img-item">
+                    <image src="./../../assets/image/icon4.png" class="contacts-img"></image>
+                </view>
+                <view class="contacts-img-item">
+                    <image src="./../../assets/image/icon1.png" class="contacts-img"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="details-apply">
+        <view class="apply_title">报名组别</view>
+        <view class="apply_desc">
+            KT100公开组
+            <view class="apply_logo-item">
+                <image src="./../../assets/image/icon_more.png" class="apply_logo"></image>
+            </view>
+        </view>
+    </view>
+    <view class="details-participant">
+        <view class="participant_title">报名组别</view>
+        <view class="participant_desc">
+            <view class="participant_image-list">
+                <image src="./../../assets/image/copy.png" class="participant_image"></image>
+                <image src="./../../assets/image/copy.png" class="participant_image"></image>
+                <image src="./../../assets/image/copy.png" class="participant_image"></image>
+                <image src="./../../assets/image/copy.png" class="participant_image"></image>
+                <image src="./../../assets/image/copy.png" class="participant_image"></image>
+            </view>
+            <view class="participant_logo-item">
+                <image class="participant_logo" src="./../../assets/image/icon_more.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="details-explain">
+        <view class="explain-item active">活动介绍</view>
+        <view class="explain-item">费用说明</view>
+        <view class="explain-item">比赛奖金</view>
+        <view class="explain-item">注意事项</view>
+    </view>
+</view>
+<view class="details-apply_container">
+    <view class="apply-consult">
+        <image class="consult_logo" src="./../../assets/image/icon3.png"></image>
+        咨询
+    </view>
+    <view class="apply-button_container">
+        <button class="apply">我要报名</button>
+        <!-- <button class="check">查看报名信息</button> -->
+        <!-- <button class="finish">已结束</button> -->
+    </view>
+</view>

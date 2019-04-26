@@ -1,5 +1,6 @@
 {
 	"pages":[
+		"pages/activityDetails/activityDetails",
 		"pages/activity/activity",
 		"pages/article/article",
 		"pages/articleDisplay/articleDisplay",
@@ -12,5 +13,27 @@
 		"navigationBarBackgroundColor": "#FF6F20",
 		"navigationBarTitleText": "WeChat",
 		"navigationBarTextStyle":"black"
-	}
+	},
+	"tabBar": {
+		"list": [
+		  {
+			"pagePath": "pages/index/index",
+			"iconPath":"assets/image/taBar-1_2.png",
+			"selectedIconPath":"assets/image/taBar-1_1.png",
+			"text": "首页"
+		  },
+		  {
+			"pagePath": "pages/activity/activity",
+			"iconPath":"assets/image/taBar-2_2.png",
+			"selectedIconPath":"assets/image/taBar-2_1.png",
+			"text": "赛事"
+		  },
+		  {
+			"pagePath": "pages/index/index",
+			"iconPath":"assets/image/taBar-3_2.png",
+			"selectedIconPath":"assets/image/taBar-3_1.png",
+			"text": "车手"
+		  }
+		]
+	  }
 }
