@@ -1,5 +1,7 @@
 {
 	"pages":[
+		"pages/apply/apply",
+
 		"pages/activityDetails/activityDetails",
 		"pages/activity/activity",
 		"pages/article/article",
