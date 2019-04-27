@@ -1,0 +1,41 @@
+<view class="page-section">
+    <image class="personage__header" src="./../../assets/image/background.png"></image>
+    <view class="personage__container">
+        <view class="personage__title">
+            <view class="title-container">
+                <image class="title__map" src="./../../assets/image/personage.png"></image>
+                <view class="title__text">吴某某</view>  
+            </view>
+        </view>
+        <view class="personage-details__list">
+            <view class="details__item">
+                <image class="item-map" src="./../../assets/image/personage1.png"></image>
+                <view class="item-title">
+                    个人资料
+                    <view class="item-tag"></view>
+                </view>
+            </view>
+            <view class="details__item">
+                <image class="item-map" src="./../../assets/image/personage2.png"></image>
+                <view class="item-title">
+                    我的车票
+                    <view class="item-tag"></view>
+                </view>
+            </view>
+            <view class="details__item">
+                <image class="item-map" src="./../../assets/image/personage3.png"></image>
+                <view class="item-title">
+                    我的赛事
+                    <view class="item-tag"></view>
+                </view>
+            </view>
+            <view class="details__item">
+                <image class="item-map" src="./../../assets/image/personage4.png"></image>
+                <view class="item-title">
+                    我的车队
+                    <view class="item-tag"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

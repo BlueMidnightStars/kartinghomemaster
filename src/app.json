@@ -1,14 +1,20 @@
 {
 	"pages":[
-		"pages/roster/roster",
-		"pages/apply/apply",
-
-		"pages/activityDetails/activityDetails",
 		"pages/activity/activity",
+		"pages/index/index",
+		
+		
+		"pages/roster/roster",
+		
+		
+		"pages/GetUserInfo/GetUserInfo",
+		
+		"pages/apply/apply",
+		"pages/activityDetails/activityDetails",
+		
 		"pages/article/article",
 		"pages/articleDisplay/articleDisplay",
-		"pages/index/index",
-		"pages/GetUserInfo/GetUserInfo"
+		"pages/personage/personage"
 		
 	],
 	"window":{
@@ -18,6 +24,8 @@
 		"navigationBarTextStyle":"black"
 	},
 	"tabBar": {
+		"selectedColor":"#FF6F20",
+		"color":"#83817E",
 		"list": [
 		  {
 			"pagePath": "pages/index/index",
@@ -29,10 +37,11 @@
 			"pagePath": "pages/activity/activity",
 			"iconPath":"assets/image/taBar-2_2.png",
 			"selectedIconPath":"assets/image/taBar-2_1.png",
+			
 			"text": "赛事"
 		  },
 		  {
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/personage/personage",
 			"iconPath":"assets/image/taBar-3_2.png",
 			"selectedIconPath":"assets/image/taBar-3_1.png",
 			"text": "车手"
