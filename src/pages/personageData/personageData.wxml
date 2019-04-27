@@ -1,0 +1,31 @@
+<view class="page-container">
+    <view class="personalData-container">
+        <view class="name-section">
+            真实姓名
+            <input class="name-input" type="text" placeholder="请输入您的真实姓名" />
+        </view>
+        <view class="phone-section">
+            手机号码
+            <input class="phone-input" type="number" placeholder="请输入您的手机号码" />
+        </view>
+        <view class="credentials-section">
+            证件信息
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="credentials-list">
+                    请选择证件{{array[index]}}
+                </view>
+            </picker>
+            <input class="phone-input" type="idcard" placeholder="请输入您的证件号码" />
+        </view>
+        <view class="weight-section">
+            体重
+            <input class="weight-input" type="digit" placeholder="请输入您的体重" />
+        </view>
+        <view class="message-section">
+            个人信息
+            <input class="message-input" type="text" placeholder="请输入您的留言" />
+        </view>
+    </view>
+    <button class="personalData-save">保存</button>
+    
+</view>
