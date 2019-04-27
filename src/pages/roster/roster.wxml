@@ -1,0 +1,186 @@
+<view class="page-container">
+    <view class="roster-section__title">
+        <view class="roster__title">
+            200
+        </view>
+        <view class="roster_desc">
+            人已报名
+        </view>
+    </view>
+    <view class="roster-list">
+        <view class="list__container">
+            <view class="list__title">
+                KT100公开组
+            </view>
+            <view class="list__desc">
+                138人
+                <view class="list__tag">
+
+                </view>
+            </view>
+        </view>
+        
+        <!-- <view class="list-section">
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+        </view> -->
+    </view>
+    <view class="roster-list">
+        <view class="list__container">
+            <view class="list__title">
+                KT100公开组
+            </view>
+            <view class="list__desc">
+                138人
+                <view class="list__tag active">
+
+                </view>
+            </view>
+        </view>
+        
+        <view class="list-section">
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+            <view class="list__item">
+                <view class="item__name">
+                    <image src="./../../assets/image/Copy.png" class="item__map"></image>
+                    徐某某
+                </view>
+                <view class="item__phone">
+                    13473404398
+                </view>
+                <view class="item__time">
+                    2019/07/25
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

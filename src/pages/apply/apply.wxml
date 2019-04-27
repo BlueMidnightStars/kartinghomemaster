@@ -88,7 +88,7 @@
     </view>
     <view class="handle-container">
         <!-- 报名-表单页-个人 -->
-        <!-- <view class="handle-initial__section">
+        <view class="handle-initial__section">
             <view class="teams-section">
                 <view class="none-section">
                      参赛组别
@@ -121,8 +121,8 @@
                     <view class="credentials-list">
                         请选择您的证件{{array[index]}}
                     </view>
-                    <input class="phone-input" type="idcard" placeholder="请输入您的证件号码" />
                 </picker>
+                <input class="phone-input" type="idcard" placeholder="请输入您的证件号码" />
             </view>
             <view class="weight-section">
                 体重
@@ -132,7 +132,7 @@
                 留言信息
                 <input class="message-input" type="text" placeholder="请输入您的留言" />
             </view>
-        </view> -->
+        </view>
         <!-- 报名-表单页 已报名未付款 已付款可取消 已付款不可取消  组队(已填)-->
         <view class="handle-process__section">
             <view class="teams-section">
@@ -190,10 +190,10 @@
             咨询
         </view>
         <view class="pay-button_container">
-            <!-- <button class="nonepay">取消支付</button> -->
-            <button class="nonepay-active">取消报名</button>
-            <!-- <button class="pay pay-active">立刻支付</button> -->
-            <button class="pay-active">已支付</button>
+            <button class="nonepay">取消支付</button>
+            <!-- <button class="nonepay-active">取消报名</button> -->
+            <button class="pay">立刻支付</button>
+            <!-- <button class="pay-active">已支付</button> -->
         </view>
     </view>
 </view>
